@@ -1,0 +1,7 @@
+CHECKPOINT_PATH="/home/ubuntu/project/Pretrained-Show-and-Tell-model/model.ckpt-2000000"
+VOCAB_FILE="/home/ubuntu/project/Pretrained-Show-and-Tell-model/word_counts.txt"
+IMAGE_FILE="/home/ubuntu/COCO_val2014_000000357255.jpg"
+bazel-bin/im2txt/run_inference \
+  --checkpoint_path=${CHECKPOINT_PATH} \
+  --vocab_file=${VOCAB_FILE} \
+  --input_files=${IMAGE_FILE}
