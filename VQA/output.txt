@@ -1,0 +1,15 @@
+
+
+
+Loading image features ...
+Loading question features ...
+Loading VQA Model ...
+
+
+
+Predicting result ...
+87.55 %  yes
+12.45 %  no
+000.0 %  left
+000.0 %  woman
+000.0 %  christmas
